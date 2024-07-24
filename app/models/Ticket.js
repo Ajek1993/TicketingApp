@@ -1,5 +1,4 @@
 import mongoose, { Schema } from "mongoose";
-import { stringify } from "postcss";
 
 mongoose.connect(process.env.MONGODB_URI);
 mongoose.Promise = global.Promise;
